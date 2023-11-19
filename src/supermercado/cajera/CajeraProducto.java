@@ -10,11 +10,13 @@ import supermercado.cliente.Producto;
 public class CajeraProducto {
     
     private String nombre;
-
+    
+    //constructor
     public CajeraProducto(String nombre) {
         this.nombre = nombre;
     }
     
+    // metodo para realizar la compra de un cliente  y calcular el tiempo de procesamiento
     public void procesarCompra(ClienteProducto cliente, long timeStamp) {
         
         System.out.println("La cajera " + this.nombre + 
